@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<VBox prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.fx.inputcontroller.InitController">
+   <children>
+      <FlowPane alignment="CENTER" prefHeight="200.0" prefWidth="300.0">
+         <children>
+            <Label prefWidth="250.0" text="EspacoGes" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </FlowPane>
+      <FlowPane alignment="CENTER" prefHeight="150.0" prefWidth="360.0">
+         <children>
+            <Button fx:id="button" mnemonicParsing="false" onAction="#processRequestAction" text="Process Resevation Request" />
+         </children>
+      </FlowPane>
+      <Pane prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</VBox>
